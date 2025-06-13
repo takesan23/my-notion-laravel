@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Http;
 
 class NotionController extends Controller
 {
+    // 🕰 旧API: 学習用に一時残している古いルート
     public function addRecord(Request $request)
     {
         // プロキシサーバーにPOSTリクエストを送る
@@ -19,3 +20,4 @@ class NotionController extends Controller
         return $response->json();
     }
 }
+
